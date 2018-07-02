@@ -1,0 +1,61 @@
+﻿빌드 시작: 2018-06-26 오후 1:55:50
+     1>2 노드의 "C:\Users\gns91\documents\visual studio 2010\Projects\cPlusExample\cPlusExample.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\cPlusExample.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AccManager7.cpp main7.cpp
+         main7.cpp
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\container7.h(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account6.h(5): error C2011: 'Account' : 'class' 형식 재정의
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+         AccManager7.cpp
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\container7.h(4): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account6.h(5): error C2011: 'Account' : 'class' 형식 재정의
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(45): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(107): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(107): error C2227: '->GetName' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(107): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(107): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(122): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(122): error C2227: '->GetId' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(123): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(123): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(129): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(129): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(131): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(131): error C2227: '->SetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(134): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(134): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(147): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(147): error C2227: '->GetId' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(148): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(148): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(154): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(154): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(156): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(156): error C2227: '->SetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(159): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(159): error C2227: '->GetBalance' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(169): error C2027: 정의되지 않은 형식 'Account'을(를) 사용했습니다.
+                 c:\users\gns91\documents\visual studio 2010\projects\cplusexample\account7.h(5) : 'Account' 선언을 참조하십시오.
+     1>c:\users\gns91\documents\visual studio 2010\projects\cplusexample\accmanager7.cpp(169): error C2227: '->ShowAllData' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+         코드를 생성하고 있습니다...
+     1>"C:\Users\gns91\documents\visual studio 2010\Projects\cPlusExample\cPlusExample.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.56
